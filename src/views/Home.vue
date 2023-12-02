@@ -18,7 +18,10 @@
       <AnimationSlot animation-type="slide-from-left" style="min-height: 100vh">
         <TechnicalSkills :class="widthClass" />
       </AnimationSlot>
-      <AnimationSlot animation-type="slide-from-right">
+      <AnimationSlot animation-type="slide-from-right" style="min-height: 100vh">
+        <Certificates :class="widthClass" />
+      </AnimationSlot>
+      <AnimationSlot animation-type="slide-from-left">
         <ContactMe :class="widthClass" />
       </AnimationSlot>
     </v-responsive>
@@ -31,6 +34,7 @@ import ContactMe from '@/components/ContactMe.vue';
 import Introduction from '@/components/Introduction.vue';
 import TechnicalSkills from '@/components/TechnicalSkills.vue';
 import { onMounted, onUnmounted, ref } from 'vue';
+import Certificates from '../components/Certificates.vue';
 
 const widthClass = ref('');
 const resizeWidth = (width: number) => {

@@ -156,3 +156,46 @@ export const socials: Social[] = [
     href: 'https://www.facebook.com/nicanderhery',
   },
 ];
+
+export const certifications: Social[] = [
+  {
+    name: 'Responsive Web Design',
+    iconUrl: 'certificates/responsive-web-design.png',
+    href: 'https://www.freecodecamp.org/certification/nicanderhery/responsive-web-design',
+  },
+  {
+    name: 'JavaScript Algorithms and Data Structures',
+    iconUrl: 'certificates/javascript-algorithms-and-data-structures.png',
+    href: 'https://www.freecodecamp.org/certification/nicanderhery/javascript-algorithms-and-data-structures',
+  },
+  {
+    name: 'Back End Development and APIs',
+    iconUrl: 'certificates/back-end-development-and-apis.png',
+    href: 'https://www.freecodecamp.org/certification/nicanderhery/back-end-development-and-apis',
+  },
+  {
+    name: 'Scientific Computing with Python',
+    iconUrl: 'certificates/scientific-computing-with-python.png',
+    href: 'https://www.freecodecamp.org/certification/nicanderhery/scientific-computing-with-python-v7',
+  },
+  {
+    name: 'Problem Solving (Basic)',
+    iconUrl: 'certificates/problem-solving-basic.png',
+    href: 'https://www.hackerrank.com/certificates/3f518b1c827f',
+  },
+  {
+    name: 'C# (Basic)',
+    iconUrl: 'certificates/csharp-basic.png',
+    href: 'https://www.hackerrank.com/certificates/916899a88470',
+  },
+  {
+    name: 'Software Engineer',
+    iconUrl: 'certificates/software-engineer.png',
+    href: 'https://www.hackerrank.com/certificates/846295152b74',
+  },
+  {
+    name: 'Software Engineer Intern',
+    iconUrl: 'certificates/software-engineer-intern.png',
+    href: 'https://www.hackerrank.com/certificates/7bc37652ceee',
+  },
+];
